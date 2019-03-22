@@ -5,7 +5,6 @@
     const $span = document.createElement('span')
     $span.setAttribute('class', 's')
     $span.setAttribute('id', 's-' + index)
-    $span.setAttribute('data-up', '1')
     $span.textContent = char
     $body.appendChild($span)
   })
